@@ -34,7 +34,7 @@ class Song
       if !hash.include?  artist
         hash[artist] = 1
       else
-        hash[genre] += 1
+        hash[artist] += 1
       end
     end
     hash      
