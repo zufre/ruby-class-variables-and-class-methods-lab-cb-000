@@ -39,8 +39,12 @@ class Song
     end
     hash
   end
-  def self.artists
-    @@artists
+  def self.artists(a)
+    array = []
+    @@artists.each do |artist|
+    if !array.include? artist
+      array << artist
+    end
   end
-
+  array
 end
