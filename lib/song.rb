@@ -42,10 +42,11 @@ class Song
   def self.artists(a)
     array = []
     @@artists.each do |artist|
-    if !array.include? artist
-      array << artist
+      if !array.include? artist
+        array << artist
+      end
     end
     array
   end
-  
+
 end
