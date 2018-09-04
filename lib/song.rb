@@ -39,7 +39,7 @@ class Song
     end
     hash
   end
-  def self.genres
+  def self.artists
     @@artists
   end
 
