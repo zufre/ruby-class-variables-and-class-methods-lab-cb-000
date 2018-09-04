@@ -23,10 +23,21 @@ class Song
       if hash[genre] == nil
         hash[genre] = 1
       else
-        hash[genre] = hash[genre]+1
+        hash[genre] += 1
       end
     end
     hash
+  end
+  def self.artist_count
+    hash = {}
+    @@artists.each do |artist|
+      if !hash.include?  artist
+        hash[artist] = 1
+      else
+        hash[genre] += 1
+      end
+    end
+    hash      
   end
 
 end
