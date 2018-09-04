@@ -39,5 +39,8 @@ class Song
     end
     hash
   end
+  def self.genres
+    @@artists
+  end
 
 end
