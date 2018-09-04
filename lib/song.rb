@@ -48,5 +48,14 @@ class Song
     end
     array
   end
+  def self.genres 
+    array =[]
+    @@genres.each do |genre|
+      if !array.include? genre
+        array << genre
+      end
+    end
+    array
+  end
 
 end
