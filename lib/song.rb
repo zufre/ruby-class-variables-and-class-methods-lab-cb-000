@@ -37,7 +37,7 @@ class Song
         hash[artist] += 1
       end
     end
-    hash      
+    hash
   end
 
 end
