@@ -22,10 +22,11 @@ class Song
     @@genres.each do |genre|
       if hash[genre] == nil
         hash[genre] = 1
-      else  
+      else
         hash[genre] = hash[genre]+1
       end
     end
+    hash
   def
 
 end
