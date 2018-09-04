@@ -45,6 +45,7 @@ class Song
     if !array.include? artist
       array << artist
     end
+    array
   end
-  array
+  
 end
